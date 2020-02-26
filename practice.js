@@ -6,6 +6,7 @@
   You can refresh the page at any time to re-run all the tests.
 */
 
+
 ////////// PROBLEM 1 //////////
 
 /*
@@ -15,6 +16,11 @@
 */
 
 //Code here
+me = {
+  name: 'Karen',
+  age: 31,
+};
+alert(me.name);
 
 ////////// PROBLEM 2 //////////
 
@@ -24,11 +30,22 @@
 */
 
 //Code here
-
+favoriteThings = {
+  band: 'OceanLab',
+  food: 'Seafood',
+  person: 'Beyonce', 
+  book: 'ElequentJavaScript',
+  movie: 'SuperWoman',
+  holiday: 'ValentinesDay'
+};
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
 */
+// let car = 'Roadster'
+// let brand = 'Tesla'
+favoriteThings.car ='Roadster'
+favoriteThings.brand = 'Tesla'
 
 //Code here
 
@@ -38,6 +55,8 @@
 */
 
 //Code here
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 
 ////////// PROBLEM 3 //////////
 
@@ -50,11 +69,15 @@
 */
 
 //Code here
-
+backPack = {}
+var item = 'firstPocket'
+backPack.firstPocket ='chapstick'
+backPack.color='black'
+ 
 /*
   After you do the above, alert your entire backPack object.
 */
-
+alert(backPack)
 //Code here
 
 /*
@@ -64,7 +87,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
-
+console.log(backPack);
 ////////// PROBLEM 4 //////////
 
 // Do not edit the code below.
@@ -83,8 +106,9 @@ var user2 = {
   name -> 'Bryan G. Smith' and email -> 'bryan.smith@devmounta.in'.
   Make that change without modifying the original object code above.
 */
-
 //Code Here
+user2.name = 'Bryan G. Smith'
+user2.email ='bryan.smith@devmounta.in'
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
@@ -96,20 +120,22 @@ var user2 = {
 */
 
 //Code Here
-
+methodCollection= { }
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console.
 */
 
 //Code Here
-
+methodCollection.alertHello = alert('Hello')
+methodCollection.logHello = 'hello'
 /*
   Now call your alertHello and logHello methods.
 */
 
 //Code Here
-
+alertHello()
+logHello()
 ////////// PROBLEM 6 //////////
 
 /*
